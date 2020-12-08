@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import albumRowList from '../data/albumRowLists';
 import AlbumRow from '../components/albumRow';
@@ -6,11 +6,11 @@ import AlbumRow from '../components/albumRow';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <FlatList 
+      <FlatList
         data={albumRowList}
-        renderItem={({ item }) => <AlbumRow title={item.title} albums={item.albums}/>}
-        keyExtractor={( item ) => item.id}
+        renderItem={({ item }) => <AlbumRow title={item.title} albums={item.albums} />}
         showsVerticalScrollIndicator={false}
+        keyExtractor={(item) => item.id}
       />
     </View>
   );
