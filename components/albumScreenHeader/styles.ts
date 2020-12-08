@@ -1,0 +1,53 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    padding: 20,
+  }, 
+  image: {
+    width: 200,
+    height: 200,
+    margin: 15,
+  },
+  name: {
+    color: 'white', 
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  bottomContainer: {
+    flexDirection: 'row',
+    marginBottom: 20,
+  },
+  text: {
+    color: 'lightgrey',
+    fontSize: 17,
+    margin: 5,
+  },
+  likes: {
+    color: 'lightgrey',
+    fontSize: 17,
+    margin: 5,
+  }, 
+  interpunct: {
+    color: 'lightgrey',
+    fontWeight:'bold',
+    fontSize: 20,
+    lineHeight: 37,
+  },
+  button: {
+    backgroundColor: '#1CD05D',
+    height: 40,
+    width: 175,
+    borderRadius: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: 'white', 
+    fontWeight: 'bold',
+    fontSize: 20,
+  },
+});
+
+export default styles;
