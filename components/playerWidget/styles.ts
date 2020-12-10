@@ -1,14 +1,16 @@
 import { StyleSheet } from 'react-native';
-import Colors from '../../constants/Colors';
+
 const styles = StyleSheet.create({
   container: {
     position: 'absolute',
     bottom: 49,
     backgroundColor: '#131313',
-    flexDirection: 'row',
     width: '100%',
     borderWidth: 1,
     borderColor: 'black',
+  },
+  row: {
+    flexDirection: 'row',
     alignItems: 'center',
   },
   title: {
@@ -36,7 +38,7 @@ const styles = StyleSheet.create({
   nameContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-  }, 
+  },
   icons: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -47,6 +49,10 @@ const styles = StyleSheet.create({
     color: 'lightgrey',
     fontSize: 16,
     margin: 5
+  },
+  progress: {
+    height: 1,
+    backgroundColor: '#bcbcbc'
   },
 });
 
