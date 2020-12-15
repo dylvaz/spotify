@@ -41,6 +41,6 @@ const albumDetails = {
     title: 'Thuggin',
     artist: 'Freddie Gibbs',
   }]
-}
+};
 
 export default albumDetails;
